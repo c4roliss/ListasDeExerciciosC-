@@ -5,13 +5,13 @@ class MainClass {
   { 
     double salario, montante, calculo;
 
-    Console.WriteLine("Qual o seu nome?");
+   
     string nome = Console.ReadLine();
 
-    Console.WriteLine("Qual é o seu salário fixo?");
+    
     salario = double.Parse(Console.ReadLine());
 
-    Console.WriteLine("Qual foi o montante?");
+    
     montante = double.Parse(Console.ReadLine());
 
     calculo = salario + (montante * 0.15);
